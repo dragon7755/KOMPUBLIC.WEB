@@ -1,0 +1,30 @@
+@media screen and (max-width: 1499px) {
+}
+
+@media screen and (max-width: 767px) {
+    .section-title {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        &.main-header {
+            .header-inner {
+                .header-buttons {
+                    .tab-button{
+                        &.search {
+                            input {
+                                max-width: 100%;
+                                flex: 1;
+                                &:focus {
+                                    max-width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

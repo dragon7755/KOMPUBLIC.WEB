@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kom Public</title>
+    <link rel="shortcut icon" type="images/x-icon" href="assets/images/fav/favicon.ico" />
+    <link rel="stylesheet" href="assets/style/css/style.css">
+    </head>
+  <body>
+
+    <!-- header -->
+    <header class="main-header">
+        <div class="container-fluid">
+            <div class="header-inner">
+                <div class="header-left">
+                    <a href="javascript-void(0)" class="logo">
+                        <img src="assets/images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header-right">
+                    <div class="header-buttons">
+                        <a href="index.html" class="tab-button"><span class="circle"><img class="icon" src="assets/images/icons/apps.svg" alt=""></span>My overview</a>
+                        <a href="case-overview.html" class="tab-button"><span class="circle"><img class="icon" src="assets/images/icons/case.svg" alt=""></span>Case overview</a>
+                        <a href="search.html" class="tab-button active"><span class="circle"><img class="icon" src="assets/images/icons/search.svg" alt=""></span>Search</a>
+                    </div>
+                    <div class="hamburger d-sm-none">
+                        <span class="menu-icon">&nbsp;</span>
+                        <!-- <img class="icon" src="assets/images/icons/hamburger.svg" alt=""> -->
+                    </div>
+                    <button class="go-to-profile"><img src="assets/images/icons/user.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="search">
+        <div class="container-fluid">
+            <div class="white-card">
+                <div class="section-head">
+                    <h2 class="section-title">Search</h2>
+                    <div class="header-right">
+                        <a href="case-overview.html">Case overview</a>
+                        <a href="awaiting-allocation.html">Awaiting allocation</a>
+                        <button type="button" class="btn btn-gray">Search</button>
+                    </div>
+                </div>
+                <div class="search-box">
+                    <h5 class="title"><img src="assets/images/icons/search.svg" alt="">Search by case</h5>
+                    <div class="search-fields">
+                        <div class="field">
+                            <label>Case number</label>
+                            <input type="text" class="form-control" placeholder="Case number">
+                        </div>
+                        <div class="field">
+                            <label>Street name</label>
+                            <input type="text" class="form-control" placeholder="Street name">
+                        </div>
+                        <div class="field">
+                            <label>Number</label>
+                            <div class="flex">
+                                <input type="text" class="form-control" placeholder="From">
+                                <span>-</span>
+                                <input type="text" class="form-control" placeholder="To">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>Free text (summary)</label>
+                            <input type="text" class="form-control" placeholder="Free text">
+                        </div>
+                        <div class="field">
+                            <label>Decision (year)</label>
+                            <div class="flex">
+                                <input type="text" class="form-control" placeholder="From">
+                                <span>-</span>
+                                <input type="text" class="form-control" placeholder="To">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>BFE number</label>
+                            <input type="text" class="form-control" placeholder="BFE number">
+                        </div>
+                        <div class="field">
+                            <label>Property number</label>
+                            <input type="text" class="form-control" placeholder="Property number">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-blue">Search</button>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="actions">
+                        <h4 class="filter-count">Filters <span>(0)</span></h4>
+                        <button class="reset-button" type="button">Reset</button>
+                    </div>
+                    <div class="all-filters">
+                        <div class="left filters-mobile-slider">
+                            <div class="dropdown">
+                                <label for="">Decision</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 1</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 2</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <label for="">Decision type</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 1</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 2</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <label for="">Local plan</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu min-248">
+                                    <li><input type="text" class="form-control search-field" placeholder="Search"></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">All</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">254 Dannebrogsgade</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">249 Viktoriagade-kareen</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">305 Kalvebod Brygge Nord II</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">249 Viktoriagade-kareen</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">254 Dannebrogsgade</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">249 Viktoriagade-kareen</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <label for="">Unfulfilled conditions</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 1</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 2</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <label for="">Case manager</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 1</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 2</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Select 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="dropdown">
+                                <label for="">Sort by</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">Most recent <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="javascript:void(0)" class="dropdown-item filter">
+                                        <span class="arrow-wrap">
+                                            <span class="up-arrow"><img src="assets/images/icons/up-arrow.svg" alt=""></span>
+                                            <span class="dwon-arrow"><img src="assets/images/icons/down-arrow.svg" alt=""></span>
+                                        </span>
+                                    Shortest to service goal</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Follow-up deadline in letter</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Follow-up date</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Most recent</a></li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="table-actions">
+                    <h4 class="cases-count">Cases <span>(3)</span></h4>
+                    <button class="edit-button" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <img src="assets/images/icons/editColumn.svg" alt="">Edit columns
+                    </button>
+                </div>
+                <div class="table-responsive">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Case number</th>
+                                <th>Address</th>
+                                <th>Decision</th>
+                                <th>Decision type</th>
+                                <th>Unfulfilled conditions</th>
+                                <th>Summary</th>
+                                <th>Case manager</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Gothersgade 137</td>
+                                <td><img src="assets/images/icons/file.svg" alt="">Permission</td>
+                                <td>Overall assessment</td>
+                                <td>The extent of the building</td>
+                                <td><span class="long-text">Change of use, warehouse to shop, 165 m2</span></td>
+                                <td>Martin Johansen</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td><img src="assets/images/icons/file.svg" alt="">Overall assessment</td>
+                                <td>Overall assessment</td>
+                                <td><span class="long-text">Securing lighting conditions and nuisances</span></td>
+                                <td><span class="long-text">Change of use, warehouse to shop, 165 m2</span></td>
+                                <td>Henrik Jansen</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Palægade 2</td>
+                                <td><img src="assets/images/icons/file.svg" alt="">Permission</td>
+                                <td>Overall assessment</td>
+                                <td>Open spaces</td>
+                                <td><span class="long-text">Change of use, warehouse to shop, 165 m2</span></td>
+                                <td>Martin Johansen</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="warning-message">
+                    <div class="gray-box">&nbsp;</div>
+                    <p>no results</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade editColumn-popup" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title" id="staticBackdropLabel">Edit columns</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Choose and prioritize which columns you want to see</p>
+              <ul class="column-list">
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Case number</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check011">
+                            <label for="check011">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Address</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check012">
+                            <label for="check012">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Latest note</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check013">
+                            <label for="check013">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Status</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check014">
+                            <label for="check014">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Follow-up date</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check015">
+                            <label for="check015">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Awaiting</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check016">
+                            <label for="check016">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Category</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check017">
+                            <label for="check017">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Construction type</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check018">
+                            <label for="check018">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Deadline in letter</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check019">
+                            <label for="check019">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Summary</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check02a">
+                            <label for="check02a">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Case manager</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check02b">
+                            <label for="check02b">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-faded" data-bs-dismiss="modal">Back</button>
+              <button type="button" class="btn btn-blue" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Continue</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade confirmation-popup" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure?</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-faded" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Back</button>
+              <button type="button" class="btn btn-blue" data-bs-dismiss="modal">Continue</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/libs/bootstrap5/dist/js/bootstrap.min.js"></script>
+   <script src="assets/js/script.js"></script>
+ </body>
+</html>

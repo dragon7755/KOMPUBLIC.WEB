@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kom Public</title>
+    <link rel="shortcut icon" type="images/x-icon" href="assets/images/fav/favicon.ico" />
+    <link rel="stylesheet" href="assets/style/css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="main-header">
+        <div class="container-fluid">
+            <div class="header-inner">
+                <div class="header-left">
+                    <a href="javascript-void(0)" class="logo">
+                        <img src="assets/images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header-right">
+                    <div class="header-buttons">
+                        <a href="index.html" class="tab-button"><span class="circle"><img class="icon"
+                                    src="assets/images/icons/apps.svg" alt=""></span>My overview</a>
+                        <a href="case-overview.html" class="tab-button active"><span class="circle"><img class="icon"
+                                    src="assets/images/icons/case.svg" alt=""></span>Case overview</a>
+                        <a href="search.html" class="tab-button"><span class="circle"><img class="icon"
+                                    src="assets/images/icons/search.svg" alt=""></span>Search</a>
+                    </div>
+                    <div class="hamburger d-sm-none">
+                        <span class="menu-icon">&nbsp;</span>
+                        <!-- <img class="icon" src="assets/images/icons/hamburger.svg" alt=""> -->
+                    </div>
+                    <button class="go-to-profile"><img src="assets/images/icons/user.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="subheader">
+        <div class="container-fluid">
+            <ul class="breadcrumb">
+                <li>Case overview</li>
+                <li class="current">468225-2022</li>
+            </ul>
+            <button type="button" class="btn bg-yellow screening-btn d-none d-lg-block"><img
+                    src="assets/images/icons/search2.svg" alt="">Screening</button>
+            <div class="right">
+                <button type="button" class="btn screening-btn bg-yellow d-block d-lg-none"><img
+                        src="assets/images/icons/search2.svg" alt="">Screening</button>
+                <button type="button" class="btn btn-faded"><img src="assets/images/icons/send-file.svg" alt="">Send
+                    material</button>
+                <button type="button" class="btn btn-faded"><img src="assets/images/icons/chat.svg" alt="">Send
+                    message</button>
+                <div class="dropdown">
+                    <button type="button" class="dropdown-toggle btn btn-gray" id="dropdown-toggle"><img
+                            src="assets/images/icons/three-dots.svg" alt=""></button>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="javascript:void(0)" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop"><img src="assets/images/icons/timer.svg" alt="">Record
+                                time</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop1"><img src="assets/images/icons/reciept.svg"
+                                    alt="">Create document access</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"><img src="assets/images/icons/house1.svg" alt="">See
+                                building annex</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="case-shortcuts mb-4">
+        <div class="container-fluid">
+            <span>Shortcuts</span>
+            <span><strong><img src="assets/images/icons/shared-folder.svg" alt="">Shared folder</strong></span>
+            <span><strong><img src="assets/images/icons/file-icon.svg" alt="">Conflict report</strong></span>
+        </div>
+    </div>
+
+    <section class="case-overview screening-process">
+        <div class="container-fluid">
+            <div class="section-head d-block">
+                <h2 class="section-title">Send material out </h2>
+            </div>
+            <div class="row flex-column-reverse flex-xl-row">
+                <div class="col-xl-8">
+                    <div class="white-card p-4 send-material mb-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group space-4">
+                                    <label for="">Case number</label>
+                                    <input type="text" class="form-control" value="468225-2022">
+                                </div>
+                            </div>
+                            <div class="offset-md-6"></div>
+                            <div class="col-md-6">
+                                <div class="dropdown space-4">
+                                    <label for="">Awaiting</label>
+                                    <button class="dropdown-toggle" id="dropdown-toggle">Choose <img
+                                            src="assets/images/icons/down-arrow.svg" alt="">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 1</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 2</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 3</a></li>
+                                    </ul>
+                                    <p class="error-msg">You must select at least 1 recipient</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="dropdown space-4">
+                                    <label for="">Type</label>
+                                    <button class="dropdown-toggle" id="dropdown-toggle">Choose <img
+                                            src="assets/images/icons/down-arrow.svg" alt="">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 1</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 2</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 3</a></li>
+                                    </ul>
+                                    <p class="error-msg">You must select at least 1 recipient</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="dropdown space-4">
+                                    <label for="">Decision (permission/denial)</label>
+                                    <button class="dropdown-toggle" id="dropdown-toggle"> Choose<img
+                                            src="assets/images/icons/down-arrow.svg" alt="">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 1</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 2</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 3</a></li>
+                                    </ul>
+                                    <p class="error-msg">You must select at least 1 recipient</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="dropdown space-4">
+                                    <label for="">Deadline for started work</label>
+                                    <button class="dropdown-toggle" id="dropdown-toggle"> Letter of deficiency<img
+                                            src="assets/images/icons/down-arrow.svg" alt="">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 1</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 2</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Select 3</a></li>
+                                    </ul>
+                                    <p class="error-msg">You must select at least 1 recipient</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="select-material">
+                            <div class="headings">
+                                <h4 class="small-title">Select material</h4>
+                                <p>You can select one or more drafts created on the case.</p>
+                            </div>
+                            <div class="row material-row row-cols-1 row-cols-sm-2 row-cols-md-5">
+                                <div class="col">
+                                    <div class="select-card">
+                                        <div class="checkbox-wrapper">
+                                            <div class="wrap m-0">
+                                                <input type="checkbox" class="custom-checkbox" id="check121">
+                                                <label for="check121"></label>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <h5 class="Stitle">Decision</h5>
+                                            <ul class="info-list">
+                                                <li>
+                                                    <h6>Last edited</h6>
+                                                    <p>Nov 9 2022</p>
+                                                </li>
+                                                <li>
+                                                    <h6>Quality assured</h6>
+                                                    <p>Yes</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="select-card">
+                                        <div class="checkbox-wrapper">
+                                            <div class="wrap m-0">
+                                                <input type="checkbox" class="custom-checkbox" id="check122">
+                                                <label for="check122"></label>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <h5 class="Stitle">Construction document</h5>
+                                            <ul class="info-list">
+                                                <li>
+                                                    <h6>Last edited</h6>
+                                                    <p>Nov 9 2022</p>
+                                                </li>
+                                                <li>
+                                                    <h6>Quality assured</h6>
+                                                    <p>No</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-buttons space-T4">
+                                <button type="button" class="btn btn-lg btn-faded">Save and close</button>
+                                <button type="button" class="btn btn-lg btn-blue">Next <img src="assets/images/icons/right-arrow.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 mb-3 mb-xl-0">
+                    <div class="white-card text-end gray-listing">
+                        <ul>
+                            <li>
+                                <h5 class="title">Case number</h5>
+                                <p>468225-2022</p>
+                            </li>
+                            <li>
+                                <h5 class="title">Address</h5>
+                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                            </li>
+                            <li>
+                                <h5 class="title">Project owner</h5>
+                                <div class="text-end">
+                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                </div>
+                            </li>
+                            <li class="align-items-center">
+                                <h5 class="title">Status</h5>
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle" id="dropdown-toggle">Complementary <img
+                                            src="assets/images/icons/down-arrow.svg" alt="">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="align-items-center">
+                                <h5 class="title">Awaiting</h5>
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle" id="dropdown-toggle">Case manager <img
+                                            src="assets/images/icons/down-arrow.svg" alt="">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="align-items-center">
+                                <h5 class="title">Follow-up date</h5>
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img
+                                            src="assets/images/icons/down-arrow.svg" alt="">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                            time</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="modal fade send-letter-popup" id="staticBackdrop001" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">Send a letter stating that the building work can be
+                        carried out without a building permit</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-0">
+                    <p>When you consider that the construction work can be carried out without planning permission, you
+                        do not need to go through the rest of the steps in the process.</p>
+                    <p>You will now be taken directly to send a letter to the applicant stating that the building work
+                        can be carried out without a building permit.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-faded" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-blue" data-bs-dismiss="modal">Yes, continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade confirmation-popup" id="staticBackdrop011" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">Are you sure?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-0">
+                    <p>You have not completed the following points in the screening:</p>
+                    <ul class="edit-screens-link-wrapper">
+                        <li>
+                            <div class="section-name warning">
+                                <span class="radio-circle">
+                                    <span class="middle">&nbsp;</span>
+                                </span>
+                                <h4>Plan relationship</h4>
+                            </div>
+                            <a href="javascript:void(0)" class="section-link"><img src="assets/images/icons/extract.svg" alt="">Go to
+                                section</a>
+                        </li>
+                        <li>
+                            <div class="section-name">
+                                <span class="radio-circle">
+                                    <span class="middle">&nbsp;</span>
+                                </span>
+                                <h4>Technical chapters</h4>
+                            </div>
+                            <a href="javascript:void(0)" class="section-link"><img src="assets/images/icons/extract.svg" alt="">Go to
+                                section</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer pt-4">
+                    <button type="button" class="btn btn-faded" data-bs-dismiss="modal">Back</button>
+                    <button type="button" class="btn btn-blue" data-bs-dismiss="modal" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop012">Keep going anyway</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade confirmation-popup2" id="staticBackdrop012" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">Letter of deficiency</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-0">
+                    <p>The information entered will generate a deficiency letter with the following templates:</p>
+                    <ul class="listing">
+                        <li>
+                            <h4 class="list-title">Template X</h4>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" class="custom-checkbox-input" id="check1" checked="">
+                                <label for="check1"></label>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="list-title">Template Y</h4>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" class="custom-checkbox-input" id="check2" checked="">
+                                <label for="check2"></label>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="list-title">Template Z</h4>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" class="custom-checkbox-input" id="check3" checked="">
+                                <label for="check3"></label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-faded" data-bs-dismiss="modal" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop011">Back</button>
+                    <button type="button" class="btn btn-blue" data-bs-dismiss="modal" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop013">continue</button>
+                </div>
+                <div class="button-wrap pt-0 p-3">
+                    <button type="button" class="btn btn-gray">Continue without generating a deficiency letter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade confirmation-popup3" id="staticBackdrop013" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">End screening</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-0">
+                    <p>You are now ending the screening of this case.</p>
+                    <p>The case will be prepared for case processing.</p>
+                    <p>If you do not want to continue to be the case manager on the case, you must set the case for
+                        assignment below before proceeding.</p>
+                    <div class="form-group">
+                        <label for="">Responsible case manager</label>
+                        <div class="dropdown">
+                            <div class="dropdown-toggle" id="dropdown-toggle">Henrik Madsen<img
+                                    src="assets/images/icons/down-arrow.svg" alt="">
+                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="javascript:void(0)">Henrik Madsen</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Henrik Madsen</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Henrik Madsen</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Henrik Madsen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-blue" data-bs-dismiss="modal">End screening</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap5/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1705 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kom Public</title>
+    <link rel="shortcut icon" type="images/x-icon" href="assets/images/fav/favicon.ico" />
+    <link rel="stylesheet" href="assets/style/css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="main-header">
+        <div class="container-fluid">
+            <div class="header-inner">
+                <div class="header-left">
+                    <a href="javascript-void(0)" class="logo">
+                        <img src="assets/images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header-right">
+                    <div class="header-buttons">
+                        <a href="index.html" class="tab-button"><span class="circle"><img class="icon"
+                                    src="assets/images/icons/apps.svg" alt=""></span>My overview</a>
+                        <a href="case-overview.html" class="tab-button active"><span class="circle"><img class="icon"
+                                    src="assets/images/icons/case.svg" alt=""></span>Case overview</a>
+                        <a href="search.html" class="tab-button"><span class="circle"><img class="icon"
+                                    src="assets/images/icons/search.svg" alt=""></span>Search</a>
+                    </div>
+                    <div class="hamburger d-sm-none">
+                        <span class="menu-icon">&nbsp;</span>
+                        <!-- <img class="icon" src="assets/images/icons/hamburger.svg" alt=""> -->
+                    </div>
+                    <button class="go-to-profile"><img src="assets/images/icons/user.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="subheader">
+        <div class="container-fluid">
+            <ul class="breadcrumb">
+                <li>Case overview</li>
+                <li class="current">468225-2022</li>
+            </ul>
+            <button type="button" class="btn bg-yellow screening-btn d-none d-lg-block"><img src="assets/images/icons/search2.svg" alt="">Screening</button>
+            <div class="right">
+                <button type="button" class="btn screening-btn bg-yellow d-block d-lg-none"><img src="assets/images/icons/search2.svg" alt="">Screening</button>
+                <button type="button" class="btn btn-faded"><img src="assets/images/icons/send-file.svg" alt="">Send
+                    material</button>
+                <button type="button" class="btn btn-faded"><img src="assets/images/icons/chat.svg" alt="">Send
+                    message</button>
+                <div class="dropdown">
+                    <button type="button" class="dropdown-toggle btn btn-gray" id="dropdown-toggle"><img src="assets/images/icons/three-dots.svg" alt=""></button>
+                    
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="assets/images/icons/timer.svg" alt="">Record
+                                time</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><img src="assets/images/icons/reciept.svg" alt="">Create document access</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"><img src="assets/images/icons/house1.svg" alt="">See
+                                building annex</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="case-shortcuts mb-4">
+        <div class="container-fluid">
+            <span>Shortcuts</span>
+            <span><strong><img src="assets/images/icons/shared-folder.svg" alt="">Shared folder</strong></span>
+            <span><strong><img src="assets/images/icons/file-icon.svg" alt="">Conflict report</strong></span>
+        </div>
+    </div>
+
+    <section class="case-overview screening-process">
+        <div class="container-fluid">
+            <div class="section-head d-block">
+                <h2 class="section-title">Register </h2>
+                <p>This report was created on 12/10/2022</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-5">
+                    <ul class="nav nav-tabs flex-column screening-process-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="Register-tab" data-bs-toggle="tab"
+                                data-bs-target="#Register-tab-pane" type="button" role="tab"
+                                aria-controls="Register-tab-pane" aria-selected="true">
+                                <label class="check-container">Register
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="location-tab" data-bs-toggle="tab" data-bs-target="#location-tab-pane"
+                                type="button" role="tab" aria-controls="location-tab-pane" aria-selected="false">
+                                <label class="check-container">The location of the property
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            
+                            <button class="nav-link" id="Oblique-tab" data-bs-toggle="tab"
+                                data-bs-target="#Oblique-tab-pane" type="button" role="tab"
+                                aria-controls="Oblique-tab-pane" aria-selected="false">
+                                <label class="check-container">Oblique photo
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="BBR-tab" data-bs-toggle="tab"
+                                data-bs-target="#BBR-tab-pane" type="button" role="tab"
+                                aria-controls="BBR-tab-pane" aria-selected="false">
+                                <label class="check-container">BBR
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <div class="red-dot">&nbsp;</div>
+                            <button class="nav-link" id="Peacekeeping-tab" data-bs-toggle="tab"
+                                data-bs-target="#Peacekeeping-tab-pane" type="button" role="tab"
+                                aria-controls="Peacekeeping-tab-pane" aria-selected="false">
+                                <label class="check-container">Peacekeeping
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="PropertyReg-tab" data-bs-toggle="tab"
+                                data-bs-target="#PropertyReg-tab-pane" type="button" role="tab"
+                                aria-controls="PropertyReg-tab-pane" aria-selected="false">
+                                <label class="check-container">Property registration
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="NatureProtect-tab" data-bs-toggle="tab"
+                                data-bs-target="#NatureProtect-tab-pane" type="button" role="tab"
+                                aria-controls="NatureProtect-tab-pane" aria-selected="false">
+                                <label class="check-container">Nature protection etc.
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="UrbanRural-tab" data-bs-toggle="tab"
+                                data-bs-target="#UrbanRural-tab-pane" type="button" role="tab"
+                                aria-controls="UrbanRural-tab-pane" aria-selected="false">
+                                <label class="check-container">Urban or rural zone
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="exemptions-tab" data-bs-toggle="tab"
+                                data-bs-target="#exemptions-tab-pane" type="button" role="tab"
+                                aria-controls="exemptions-tab-pane" aria-selected="false">
+                                <label class="check-container">Previous exemptions
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Preoncc-tab" data-bs-toggle="tab"
+                                data-bs-target="#Preoncc-tab-pane" type="button" role="tab"
+                                aria-controls="Preoncc-tab-pane" aria-selected="false">
+                                <label class="check-container">Previous or ongoing construction cases on the property
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Miscellaneous-tab" data-bs-toggle="tab"
+                                data-bs-target="#Miscellaneous-tab-pane" type="button" role="tab"
+                                aria-controls="Miscellaneous-tab-pane" aria-selected="false">
+                                <label class="check-container">Miscellaneous
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </button>
+                        </li>
+                        </ul>
+                </div>
+                <div class="col-md-9">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="Register-tab-pane" role="tabpanel"
+                            aria-labelledby="Register-tab" tabindex="0">
+                            <div class="mapImage-wrapper">
+                                <img src="assets/images/location-map.jpg" alt="location-map">
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <div class="white-card">
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2 verticle-top">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Register</td>
+                                                        <td>18a Sundby Overdrev, Copenhagen</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property no.</td>
+                                                        <td>310752</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Owner license code</td>
+                                                        <td>2000170</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Register no.</td>
+                                                        <td>18 a</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Registered area</td>
+                                                        <td>39634 m2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Species code</td>
+                                                        <td>Ordinary martrikel</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Number of owners</td>
+                                                        <td>1</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ownership</td>
+                                                        <td>The municipality in which the property is located</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Owner</td>
+                                                        <td>Copenhagen municipality</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Link to map</td>
+                                                        <td><a class="link" href="javascript:void(0)">https://kobenhavnskommune.dk/kort/310752 <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="location-tab-pane" role="tabpanel"
+                            aria-labelledby="location-tab" tabindex="0">
+                            <div class="mapImage-wrapper">
+                                <img src="assets/images/property-map.jpg" alt="property-map">
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <div class="white-card">
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Link to map</td>
+                                                        <td><a class="link" href="javascript:void(0)">https://kobenhavnskommune.dk/kort/310752 <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Municipal plan</td>
+                                                        <td><a class="link" href="javascript:void(0)">Open PDF <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Local plan</td>
+                                                        <td><a class="link" href="javascript:void(0)">Open PDF <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>City planning statute</td>
+                                                        <td><a class="link" href="javascript:void(0)">Open PDF <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Oblique-tab-pane" role="tabpanel"
+                            aria-labelledby="Oblique-tab" tabindex="0">
+                            <div class="mapImage-wrapper">
+                                <img src="assets/images/oblique-map.jpg" alt="oblique-map">
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <div class="white-card">
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Link to map</td>
+                                                        <td><a class="link" href="javascript:void(0)">https://kobenhavnskommune.dk/kort/310752 <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="BBR-tab-pane" role="tabpanel"
+                            aria-labelledby="BBR-tab" tabindex="0">
+                            <div class="mapImage-wrapper">
+                                <img src="assets/images/bbr-map.jpg" alt="oblique-map">
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <div class="white-card">
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Link to BBR</td>
+                                                        <td><a class="link" href="javascript:void(0)">https://bbr.dk/98723750954 <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="white-card mt-4">
+                                        <h4 class="small-title mb-3">Building information</h4>
+                                        <div class="table-responsive px-0 mb-3">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Year of construction of the building</td>
+                                                        <td>1944</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Most recent renovation or addition year</td>
+                                                        <td>2012</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <h4 class="small-subtitle">Materials</h4>
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Exterior wall material</td>
+                                                        <td>Tree</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Roofing material</td>
+                                                        <td>Roofing board with a large slope</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="white-card mt-4">
+                                        <h4 class="small-title mb-3">The building's areas and floors</h4>
+                                        <h4 class="small-subtitle">Areas</h4>
+                                        <div class="table-responsive px-0 mb-3">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Total building area in m2</td>
+                                                        <td>49 m2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Built-up area in m2</td>
+                                                        <td>25 m2</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <h4 class="small-subtitle">Floors</h4>
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Number of floors</td>
+                                                        <td>1</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="white-card mt-4">
+                                        <h4 class="small-title mb-3">Heat and energy</h4>
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2 verticle-top">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>The building's heating installation</td>
+                                                        <td>Electric heating</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>The building's heating medium</td>
+                                                        <td>Electricity</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>The building's supplementary heating installation</td>
+                                                        <td>(PHASE OUT) The building<br> has no supplementary<br> heating</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Peacekeeping-tab-pane" role="tabpanel"
+                            aria-labelledby="Peacekeeping-tab" tabindex="0">
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <div class="white-card">
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Conservation status</td>
+                                                        <td>No conservation status</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Year of construction</td>
+                                                        <td>1991</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ownership</td>
+                                                        <td>Private individuals, incl. ICE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Building type</td>
+                                                        <td>Building</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Application</td>
+                                                        <td>Outhouse</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Map</td>
+                                                        <td><a class="link" href="javascript:void(0)">Open map <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="white-card mt-4">
+                                        <h4 class="small-title mb-3">BBR information</h4>
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>BBR number</td>
+                                                        <td>101-951340-2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>commune</td>
+                                                        <td>Copenhagen</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Address</td>
+                                                        <td>Hf. Mejlgården 143, 2770 Kastrup</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Building number</td>
+                                                        <td>2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property number</td>
+                                                        <td>951340</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Building type</td>
+                                                        <td>Building</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Year of construction</td>
+                                                        <td>1991</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Area source</td>
+                                                        <td>Informed by the owner (or his representative)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Roofing</td>
+                                                        <td>Roofing board (with roof slope)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>External wall</td>
+                                                        <td>Wood cladding</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Material source</td>
+                                                        <td>Informed by the owner (or his representative)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Cadastre and owner license</td>
+                                                        <td>18A, Sundby Overdrev</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Zone</td>
+                                                        <td>Urban zone</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ownership</td>
+                                                        <td>Private person, incl. ICE</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">  
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="PropertyReg-tab-pane" role="tabpanel"
+                            aria-labelledby="PropertyReg-tab" tabindex="0">
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <h3 class="outer-title">Ejendom</h3>
+                                    <p>Kronprinsessegade 6, 1306 København K</p>
+                                    <div class="accordion tab-pane" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item white-card">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"  aria-controls="panelsStayOpen-collapseOne">
+                                                Access etc.
+                                            </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                                <div class="accordion-body pt-0">
+                                                    <div class="table-responsive px-0">
+                                                        <table class="data-table style2">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Owners</td>
+                                                                    <td>P/S LOUISE NORMANN INVEST, share: 1/1</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Address</td>
+                                                                    <td>Kronprinsessegade 6 1 1306 Copenhagen K</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Property type</td>
+                                                                    <td>Condominium</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Martrikel</td>
+                                                                    <td>Owner record: Sankt Annæ Vester Kvarter, Copenhagen Martikel: 385</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>commune</td>
+                                                                    <td>Copenhagen municipality</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item white-card">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                                Servants
+                                            </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                                                <div class="accordion-body pt-0">
+                                                    <div class="table-responsive px-0">
+                                                        <table class="data-table style2">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Date/run number</td>
+                                                                    <td>15.06.1937-1688-01</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Priority</td>
+                                                                    <td><span class="rounded-blue-bg count">1</span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Document type</td>
+                                                                    <td>Easement</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Text</td>
+                                                                    <td><a class="link width-half" href="javascript:void(0)">Document on construction, use, etc. <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Date/run number</td>
+                                                                    <td>15.06.1937-1688-01</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Priority</td>
+                                                                    <td><span class="rounded-blue-bg count">2</span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Document type</td>
+                                                                    <td>Easement</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Text</td>
+                                                                    <td><a class="link width-half" href="javascript:void(0)">Document on construction, use, etc. <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Date/run number</td>
+                                                                    <td>15.06.1937-1688-01</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Priority</td>
+                                                                    <td><span class="rounded-blue-bg count">3</span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Document type</td>
+                                                                    <td>Easement</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Text</td>
+                                                                    <td><a class="link width-half" href="javascript:void(0)">Document on district heating/plants etc. file F13I <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Date/run number</td>
+                                                                    <td>15.06.1937-1688-01</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Priority</td>
+                                                                    <td><span class="rounded-blue-bg count">4</span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Document type</td>
+                                                                    <td>Easement</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Text</td>
+                                                                    <td><a class="link width-half" href="javascript:void(0)">Document on the conservation of the west<br> rampart, etc. Also other property. Act. S 384 III<br> ACT 1_S-III_384 <img src="assets/images/icons/extract.svg" alt=""></a></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">  
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="NatureProtect-tab-pane" role="tabpanel"
+                            aria-labelledby="NatureProtect-tab" tabindex="0">
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <div class="white-card">
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Protections</td>
+                                                        <td>No</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Nature conservation</td>
+                                                        <td>No</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Historic monument protection</td>
+                                                        <td>No</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Pollution</td>
+                                                        <td><a class="link" href="javascript:void(0)">Open link for information about pollution <img src="assets/images/icons/extract.svg" alt="link"></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>commune</td>
+                                                        <td>Copenhagen municipality</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">  
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="UrbanRural-tab-pane" role="tabpanel"
+                            aria-labelledby="UrbanRural-tab" tabindex="0">
+                            <div class="mapImage-wrapper">
+                                <img src="assets/images/locality-map.jpg" alt="locality-map">
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <div class="white-card">
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Link to map</td>
+                                                        <td><a class="link" href="javascript:void(0)">https://kobenhavnskommune.dk/kort/310752 <img src="assets/images/icons/extract.svg" alt="link"></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="exemptions-tab-pane" role="tabpanel"
+                            aria-labelledby="exemptions-tab" tabindex="0">
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <h3 class="outer-title mb-4">Exemptions from the local plan</h3>
+                                    <div class="accordion tab-pane" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item white-card">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"  aria-controls="panelsStayOpen-collapseOne">
+                                                Åkandevej 37, 2700 Brønshøj <span class="text-muted">(827259-2022)</span>
+                                            </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                                <div class="accordion-body pt-0">
+                                                    <div class="table-responsive px-0">
+                                                        <table class="data-table verticle-top">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Decision</th>
+                                                                    <th>Local plan</th>
+                                                                    <th>Paragraph</th>
+                                                                    <th>Date</th>
+                                                                    <th style="width: 25%;">Summary</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <a class="link" href="javascript:void(0)">Permission <img src="assets/images/icons/extract.svg" alt="link"></a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a class="link" href="javascript:void(0)">Kalvebod Brygge Nord II</a>
+                                                                    </td>
+                                                                    <td>§16 #4</td>
+                                                                    <td>06.03.2016</td>
+                                                                    <td>
+                                                                        <div class="toggle-text">
+                                                                            <p id="contentzz" class="contentzz clamped">Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit. Aenean Euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor.</span></p> 
+                                                                            <button id="toggleButton" class="toggle-button"><img src="assets/images/icons/down-arrow.svg" alt=""></button>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 class="outer-title mb-4">Exemptions from building regulations</h3>
+                                    <div class="accordion tab-pane" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item white-card">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingOn">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOn"  aria-controls="panelsStayOpen-collapseOn">
+                                                Nymindevej 8, 2700 Brønshøj <span class="text-muted">(827259-2022)</span>
+                                            </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseOn" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOn">
+                                                <div class="accordion-body pt-0">
+                                                    <div class="table-responsive px-0">
+                                                        <table class="data-table verticle-top">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Decision</th>
+                                                                    <th>Building code</th>
+                                                                    <th>Paragraph</th>
+                                                                    <th>Date</th>
+                                                                    <th style="width: 25%;">Summary</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <a class="link" href="javascript:void(0)">Permission <img src="assets/images/icons/extract.svg" alt="link"></a>
+                                                                    </td>
+                                                                    <td>BR18</td>
+                                                                    <td>§16 #4</td>
+                                                                    <td>06.03.2016</td>
+                                                                    <td>
+                                                                        <div class="toggle-text">
+                                                                            <p id="contentzz" class="contentzz clamped">Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit. Aenean Euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor.</span></p> 
+                                                                            <button id="toggleButton" class="toggle-button"><img src="assets/images/icons/down-arrow.svg" alt=""></button>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">  
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Preoncc-tab-pane" role="tabpanel"
+                            aria-labelledby="Preoncc-tab" tabindex="0">
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <div class="table-responsive px-0">
+                                        <table class="data-table verticle-top">
+                                            <thead>
+                                                <tr>
+                                                    <th>Decision</th>
+                                                    <th>Case type</th>
+                                                    <th style="width: 25%;">Summary</th>
+                                                    <th>Date</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a class="link" href="javascript:void(0)">Kanslergade 1, st. <img src="assets/images/icons/extract.svg" alt="link"></a>
+                                                    </td>
+                                                    <td>Apartment building</td>
+                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean Euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor.</td>
+                                                    <td>16-05-2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a class="link" href="javascript:void(0)">Kanslergade 1, st. <img src="assets/images/icons/extract.svg" alt="link"></a>
+                                                    </td>
+                                                    <td>Other application types</td>
+                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean Euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor.</td>
+                                                    <td>16-05-2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a class="link" href="javascript:void(0)">Kanslergade 1, 1. mf. <img src="assets/images/icons/extract.svg" alt="link"></a>
+                                                    </td>
+                                                    <td>Planning inquiry</td>
+                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean Euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor.</td>
+                                                    <td>16-05-2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a class="link" href="javascript:void(0)">Kanslergade 10, st. <img src="assets/images/icons/extract.svg" alt="link"></a>
+                                                    </td>
+                                                    <td>Apartment building</td>
+                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean Euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor.</td>
+                                                    <td>16-05-2020</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">  
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Miscellaneous-tab-pane" role="tabpanel"
+                            aria-labelledby="Miscellaneous-tab" tabindex="0">
+                            <div class="row mb-5">
+                                <div class="col-md-8">
+                                    <h3 class="outer-title mb-4">Exemptions from the local plan</h3>
+                                    <div class="white-card mb-4">
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Drain code</td>
+                                                        <td><a href="javascript:void(0)" class="link">Details <img src="assets/images/icons/extract.svg" alt="link"></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <h3 class="outer-title">Residents of the property</h3>
+                                    <p class="mb-4">Åkandevej 66, 2700 Brønshøj</p>
+                                    <div class="white-card mb-4">
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Dispensation</td>
+                                                        <td><a href="javascript:void(0)" class="link">Details <img src="assets/images/icons/extract.svg" alt="link"></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <h3 class="outer-title">Drinking water</h3>
+                                    <p class="mb-4">Nymindevej 8, 2700 Brønshøj</p>
+                                    <div class="white-card mb-4">
+                                        <div class="table-responsive px-0">
+                                            <table class="data-table style2">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Dispensation</td>
+                                                        <td><a href="javascript:void(0)" class="link">Details <img src="assets/images/icons/extract.svg" alt="link"></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">  
+                                    <div class="white-card text-end gray-listing mt-3 mt-md-0">
+                                        <ul>
+                                            <li>
+                                                <h5 class="title">Case number</h5>
+                                                <p>468225-2022</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Address</h5>
+                                                <p>Kanslergade 1, st. tv,<br> 2100 Copenhagen Ø</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="title">Project owner</h5>
+                                                <div class="text-end">
+                                                    <p>Hanne Andersen <br> ha@firma.dk</p>
+                                                    <a href="javascript:void(0)" class="btn btn-faded btn-sm">Send message</a>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Status</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Complementary <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Awaiting</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">Case manager <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="align-items-center">
+                                                <h5 class="title">Follow-up date</h5>
+                                                <div class="dropdown">
+                                                    <button disabled class="dropdown-toggle" id="dropdown-toggle">12/11/2022 <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-faded"><img src="assets/images/icons/timer.svg" alt=""> Add note/record
+                                            time</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="modal fade send-letter-popup" id="staticBackdrop001" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">Send a letter stating that the building work can be carried out without a building permit</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-0">
+                    <p>When you consider that the construction work can be carried out without planning permission, you do not need to go through the rest of the steps in the process.</p>
+                    <p>You will now be taken directly to send a letter to the applicant stating that the building work can be carried out without a building permit.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-faded" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-blue" data-bs-dismiss="modal">Yes, continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade confirmation-popup" id="staticBackdrop011" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">Are you sure?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-0">
+                    <p>You have not completed the following points in the screening:</p>
+                    <ul class="edit-screens-link-wrapper">
+                        <li>
+                            <div class="section-name warning">
+                                <span class="radio-circle">
+                                    <span class="middle">&nbsp;</span>
+                                </span>
+                                <h4>Plan relationship</h4>
+                            </div>
+                            <a href="javascript:void(0)" class="section-link"><img src="assets/images/icons/extract.svg" alt="">Go to section</a>
+                        </li>
+                        <li>
+                            <div class="section-name">
+                                <span class="radio-circle">
+                                    <span class="middle">&nbsp;</span>
+                                </span>
+                                <h4>Technical chapters</h4>
+                            </div>
+                            <a href="javascript:void(0)" class="section-link"><img src="assets/images/icons/extract.svg" alt="">Go to section</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer pt-4">
+                    <button type="button" class="btn btn-faded" data-bs-dismiss="modal">Back</button>
+                    <button type="button" class="btn btn-blue" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop012">Keep going anyway</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade confirmation-popup2" id="staticBackdrop012" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">Letter of deficiency</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-0">
+                    <p>The information entered will generate a deficiency letter with the following templates:</p>
+                    <ul class="listing">
+                        <li>
+                            <h4 class="list-title">Template X</h4>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" class="custom-checkbox-input" id="check1" checked="">
+                                <label for="check1"></label>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="list-title">Template Y</h4>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" class="custom-checkbox-input" id="check2" checked="">
+                                <label for="check2"></label>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="list-title">Template Z</h4>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" class="custom-checkbox-input" id="check3" checked="">
+                                <label for="check3"></label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-faded" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop011">Back</button>
+                    <button type="button" class="btn btn-blue" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop013">continue</button>
+                </div>
+                <div class="button-wrap pt-0 p-3">
+                    <button type="button" class="btn btn-gray">Continue without generating a deficiency letter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade confirmation-popup3" id="staticBackdrop013" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">End screening</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-0">
+                    <p>You are now ending the screening of this case.</p>
+                    <p>The case will be prepared for case processing.</p>
+                    <p>If you do not want to continue to be the case manager on the case, you must set the case for assignment below before proceeding.</p>
+                    <div class="form-group">
+                        <label for="">Responsible case manager</label>
+                        <div class="dropdown">
+                            <div class="dropdown-toggle" id="dropdown-toggle">Henrik Madsen<img src="assets/images/icons/down-arrow.svg" alt="">
+                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="javascript:void(0)">Henrik Madsen</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Henrik Madsen</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Henrik Madsen</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Henrik Madsen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-blue" data-bs-dismiss="modal">End screening</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap5/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

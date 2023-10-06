@@ -1,0 +1,875 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kom Public</title>
+    <link rel="shortcut icon" type="images/x-icon" href="assets/images/fav/favicon.ico" />
+    <link rel="stylesheet" href="assets/style/css/style.css">
+    </head>
+  <body>
+
+    <!-- loader -->
+    <div class="backdrop">
+        <div class="spinner">
+            <img src="assets/images/loader0.png" alt="loader">
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="main-header">
+        <div class="container-fluid">
+            <div class="header-inner">
+                <div class="header-left">
+                    <a href="javascript-void(0)" class="logo">
+                        <img src="assets/images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header-right">
+                    <div class="header-buttons">
+                        <a href="index.html" class="tab-button"><span class="circle"><img class="icon" src="assets/images/icons/apps.svg" alt=""></span>My overview</a>
+                        <a href="case-overview.html" class="tab-button active"><span class="circle"><img class="icon" src="assets/images/icons/case.svg" alt=""></span>Case overview</a>
+                        <a href="search.html" class="tab-button"><span class="circle"><img class="icon" src="assets/images/icons/search.svg" alt=""></span>Search</a>
+                    </div>
+                    <div class="hamburger d-sm-none">
+                        <span class="menu-icon">&nbsp;</span>
+                        <!-- <img class="icon" src="assets/images/icons/hamburger.svg" alt=""> -->
+                    </div>
+                    <button class="go-to-profile"><img src="assets/images/icons/user.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="case-overview">
+        <div class="container-fluid">
+            <div class="white-card">
+                <div class="section-head">
+                    <h2 class="section-title">Case overview</h2>
+                    <div class="header-right">
+                        <a href="case-overview.html">Case overview</a>
+                        <a href="awaiting-allocation.html">Awaiting allocation</a>
+                        <button type="button" class="btn btn-gray">Search</button>
+                    </div>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="actions">
+                        <h4 class="filter-count">Filters <span>(0)</span></h4>
+                        <button class="reset-button" type="button">Reset</button>
+                    </div>
+                    <div class="all-filters">
+                        <div class="left filters-mobile-slider">
+                            <div class="dropdown">
+                                <label for="">Status</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu checkbox-wrapper">
+                                    <li><a class="dropdown-item wrap" href="javascript:void(0)">
+                                        <input type="checkbox" class="custom-checkbox" name="" id="all01">
+                                        <label for="all01">Alle</label></a>
+                                    </li>
+                                    <li>
+                                        <ul class="dropdown-submenu" style="padding-left: 10px;">
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check2" checked>
+                                                    <label for="check2">Afgørelse i udkast</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check3">
+                                                    <label for="check3">Afgørelse klar</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check4">
+                                                    <label for="check4">Afventer opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check5">
+                                                    <label for="check5">Fyldestgørende</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check6">
+                                                    <label for="check6">I høring</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check7">
+                                                    <label for="check7">Mangelbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check8">
+                                                    <label for="check8">Opgivet af ansøger</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check9">
+                                                    <label for="check9">Opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check9">
+                                                    <label for="check9">Påmindelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check9">
+                                                    <label for="check9">Rykkerbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check9">
+                                                    <label for="check9">Screenet</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check9">
+                                                    <label for="check9">Skrivelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check9">
+                                                    <label for="check9">Svar ikke modtaget</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="check9">
+                                                    <label for="check9">Svar modtaget</label>
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <label for="">Awaiting</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu checkbox-wrapper">
+                                    <li><a class="dropdown-item wrap" href="javascript:void(0)">
+                                        <input type="checkbox" class="custom-checkbox" name="" id="all02">
+                                        <label for="all02">Alle</label></a>
+                                    </li>
+                                    <li>
+                                        <ul class="dropdown-submenu" style="padding-left: 10px;">
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck2" checked>
+                                                    <label for="awcheck2">Afgørelse i udkast</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck3">
+                                                    <label for="awcheck3">Afgørelse klar</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck4">
+                                                    <label for="awcheck4">Afventer opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck5">
+                                                    <label for="awcheck5">Fyldestgørende</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck6">
+                                                    <label for="awcheck6">I høring</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck7">
+                                                    <label for="awcheck7">Mangelbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck8">
+                                                    <label for="awcheck8">Opgivet af ansøger</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck9">
+                                                    <label for="awcheck9">Opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck10">
+                                                    <label for="awcheck10">Påmindelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck11">
+                                                    <label for="awcheck11">Rykkerbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck12">
+                                                    <label for="awcheck12">Screenet</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck13">
+                                                    <label for="awcheck13">Skrivelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck14">
+                                                    <label for="awcheck14">Svar ikke modtaget</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="awcheck15">
+                                                    <label for="awcheck15">Svar modtaget</label>
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <label for="">Category</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu checkbox-wrapper">
+                                    <li><a class="dropdown-item wrap" href="javascript:void(0)">
+                                        <input type="checkbox" class="custom-checkbox" name="" id="all03">
+                                        <label for="all03">Alle</label></a>
+                                    </li>
+                                    <li>
+                                        <ul class="dropdown-submenu" style="padding-left: 10px;">
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck2" checked>
+                                                    <label for="catcheck2">Afgørelse i udkast</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck3">
+                                                    <label for="catcheck3">Afgørelse klar</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck4">
+                                                    <label for="catcheck4">Afventer opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck5">
+                                                    <label for="catcheck5">Fyldestgørende</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck6">
+                                                    <label for="catcheck6">I høring</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck7">
+                                                    <label for="catcheck7">Mangelbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck8">
+                                                    <label for="catcheck8">Opgivet af ansøger</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck9">
+                                                    <label for="catcheck9">Opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck10">
+                                                    <label for="catcheck10">Påmindelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck11">
+                                                    <label for="catcheck11">Rykkerbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck12">
+                                                    <label for="catcheck12">Screenet</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck12">
+                                                    <label for="catcheck12">Skrivelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck13">
+                                                    <label for="catcheck13">Svar ikke modtaget</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="catcheck14">
+                                                    <label for="catcheck14">Svar modtaget</label>
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <label for="">Construction type</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu checkbox-wrapper">
+                                    <li><a class="dropdown-item wrap" href="javascript:void(0)">
+                                        <input type="checkbox" class="custom-checkbox" name="" id="all04">
+                                        <label for="all04">Alle</label></a>
+                                    </li>
+                                    <li>
+                                        <ul class="dropdown-submenu" style="padding-left: 10px;">
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck2" checked>
+                                                    <label for="constcheck2">Afgørelse i udkast</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck3">
+                                                    <label for="constcheck3">Afgørelse klar</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck4">
+                                                    <label for="constcheck4">Afventer opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck5">
+                                                    <label for="constcheck5">Fyldestgørende</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck6">
+                                                    <label for="constcheck6">I høring</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck7">
+                                                    <label for="constcheck7">Mangelbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck8">
+                                                    <label for="constcheck8">Opgivet af ansøger</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck9">
+                                                    <label for="constcheck9">Opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck10">
+                                                    <label for="constcheck10">Påmindelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck11">
+                                                    <label for="constcheck11">Rykkerbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck12">
+                                                    <label for="constcheck12">Screenet</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck13">
+                                                    <label for="constcheck13">Skrivelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck14">
+                                                    <label for="constcheck14">Svar ikke modtaget</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="constcheck15">
+                                                    <label for="constcheck15">Svar modtaget</label>
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <label for="">Case type</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu checkbox-wrapper">
+                                    <li><a class="dropdown-item wrap" href="javascript:void(0)">
+                                        <input type="checkbox" class="custom-checkbox" name="" id="all05">
+                                        <label for="all05">Alle</label></a>
+                                    </li>
+                                    <li>
+                                        <ul class="dropdown-submenu" style="padding-left: 10px;">
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck1" checked>
+                                                    <label for="casetypecheck1">Afgørelse i udkast</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck2">
+                                                    <label for="casetypecheck2">Afgørelse klar</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck3">
+                                                    <label for="casetypecheck3">Afventer opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck4">
+                                                    <label for="casetypecheck4">Fyldestgørende</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck5">
+                                                    <label for="casetypecheck5">I høring</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck6">
+                                                    <label for="casetypecheck6">Mangelbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck7">
+                                                    <label for="casetypecheck7">Opgivet af ansøger</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck8">
+                                                    <label for="casetypecheck8">Opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck9">
+                                                    <label for="casetypecheck9">Påmindelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck10">
+                                                    <label for="casetypecheck10">Rykkerbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck11">
+                                                    <label for="casetypecheck11">Screenet</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck12">
+                                                    <label for="casetypecheck12">Skrivelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck13">
+                                                    <label for="casetypecheck13">Svar ikke modtaget</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casetypecheck14">
+                                                    <label for="casetypecheck14">Svar modtaget</label>
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            <div class="dropdown">
+                                <label for="">Case manager</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">All <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu checkbox-wrapper">
+                                    <li><a class="dropdown-item wrap" href="javascript:void(0)">
+                                        <input type="checkbox" class="custom-checkbox" name="" id="all06">
+                                        <label for="all06">Alle</label></a>
+                                    </li>
+                                    <li>
+                                        <ul class="dropdown-submenu" style="padding-left: 10px;">
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck1" checked>
+                                                    <label for="casemangcheck1">Afgørelse i udkast</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck2">
+                                                    <label for="casemangcheck2">Afgørelse klar</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck3">
+                                                    <label for="casemangcheck3">Afventer opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck4">
+                                                    <label for="casemangcheck4">Fyldestgørende</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck5">
+                                                    <label for="casemangcheck5">I høring</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck6">
+                                                    <label for="casemangcheck6">Mangelbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck7">
+                                                    <label for="casemangcheck7">Opgivet af ansøger</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck8">
+                                                    <label for="casemangcheck8">Opstart</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck9">
+                                                    <label for="casemangcheck9">Påmindelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck10">
+                                                    <label for="casemangcheck10">Rykkerbrev</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck11">
+                                                    <label for="casemangcheck11">Screenet</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck12">
+                                                    <label for="casemangcheck12">Skrivelse</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck13">
+                                                    <label for="casetypecheck13">Svar ikke modtaget</label>
+                                                </a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item wrap">
+                                                    <input type="checkbox" class="custom-checkbox" name="" id="casemangcheck14">
+                                                    <label for="casemangcheck14">Svar modtaget</label>
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="dropdown">
+                                <label for="">Sort by</label>
+                                <button class="dropdown-toggle" id="dropdown-toggle">Most recent <img src="assets/images/icons/down-arrow.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="javascript:void(0)" class="dropdown-item filter">
+                                        <span class="arrow-wrap">
+                                            <span class="up-arrow"><img src="assets/images/icons/up-arrow.svg" alt=""></span>
+                                            <span class="dwon-arrow"><img src="assets/images/icons/down-arrow.svg" alt=""></span>
+                                        </span>
+                                    Shortest to service goal</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Follow-up deadline in letter</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#staticBackdrop102">Follow-up date</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Most recent</a></li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="table-actions">
+                    <h4 class="cases-count">Cases <span>(54)</span></h4>
+                    <button class="edit-button" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <img src="assets/images/icons/editColumn.svg" alt="">Edit columns
+                    </button>
+                </div>
+                <div class="table-responsive">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Case number</th>
+                                <th>Address</th>
+                                <th>Latest note</th>
+                                <th>Status</th>
+                                <th>Follow-up date</th>
+                                <th>Awaiting</th>
+                                <th>Category</th>
+                                <th>Construction type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Gothersgade 137</td>
+                                <td>-</td>
+                                <td>Awaiting screening</td>
+                                <td>15/03/2023</td>
+                                <td>Quality assurance</td>
+                                <td>Request</td>
+                                <td>Single-family and terraced houses</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Palægade 2</td>
+                                <td>-</td>
+                                <td>Awaiting screening</td>
+                                <td>15/03/2023</td>
+                                <td>Case manager</td>
+                                <td>Construction case</td>
+                                <td>Profession</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td><span class="bg-yellow"><span class="long-text">Letter of termination sent for approval by Mette - and approved and sent out</span></span></td>
+                                <td>Awaiting screening</td>
+                                <td>15/03/2023</td>
+                                <td>Case manager</td>
+                                <td>Construction case</td>
+                                <td>Small buildings</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td>-</td>
+                                <td>Awaiting screening</td>
+                                <td>15/03/2023</td>
+                                <td>Case manager</td>
+                                <td>Completion notice</td>
+                                <td>Complaint</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td><span class="bg-yellow"><span class="long-text">Permit approved and sent</span></span></td>
+                                <td>Screened</td>
+                                <td>15/03/2023</td>
+                                <td>Hearing</td>
+                                <td>Construction case</td>
+                                <td>Change of use</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td>-</td>
+                                <td>Awaiting screening</td>
+                                <td>15/03/2023</td>
+                                <td>Applicant</td>
+                                <td>Request</td>
+                                <td>Cottage</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td>-</td>
+                                <td>Screened</td>
+                                <td>15/03/2023</td>
+                                <td>Case manager</td>
+                                <td>Screening</td>
+                                <td>Balcony and roof terrace</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td>-</td>
+                                <td>Screened</td>
+                                <td>15/03/2023</td>
+                                <td>Closed</td>
+                                <td>Screening</td>
+                                <td>Legalization</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td><span class="bg-yellow"><span class="long-text">Draft letter of deficiency approved at meeting. Defect letter has been uploaded and sent to KS</span></span></td>
+                                <td>Awaiting screening</td>
+                                <td>15/03/2023</td>
+                                <td>Case manager</td>
+                                <td>Screening</td>
+                                <td>New behavior</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td>-</td>
+                                <td>Screened</td>
+                                <td>15/03/2023</td>
+                                <td>Case manager</td>
+                                <td>Screening</td>
+                                <td>Playground</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td>-</td>
+                                <td>Awaiting screening</td>
+                                <td>15/03/2023</td>
+                                <td>Hearing</td>
+                                <td>Completion notice</td>
+                                <td>Balcony and roof terrace</td>
+                            </tr>
+                            <tr>
+                                <td>827259-2022</td>
+                                <td>Klostergården 37</td>
+                                <td>-</td>
+                                <td>Screened</td>
+                                <td>15/03/2023</td>
+                                <td>Case manager</td>
+                                <td>Construction case</td>
+                                <td>Allotment</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-footer">
+                    <button type="button" class="table-nav prev"><img src="assets/images/icons/left-arrow.svg" alt="">Previous</button>
+                    <ul class="pagination">
+                        <li class="active">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>...</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                    </ul>
+                    <button type="button" class="table-nav next">Next<img src="assets/images/icons/right-arrow.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade editColumn-popup" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title" id="staticBackdropLabel">Edit columns</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Choose and prioritize which columns you want to see</p>
+              <ul class="column-list">
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Case number</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check011">
+                            <label for="check011">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Address</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check012">
+                            <label for="check012">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Latest note</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check013">
+                            <label for="check013">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Status</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check014">
+                            <label for="check014">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Follow-up date</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check015">
+                            <label for="check015">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Awaiting</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check016">
+                            <label for="check016">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Category</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check017">
+                            <label for="check017">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item blue-bg">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Construction type</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check018">
+                            <label for="check018">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Deadline in letter</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check019">
+                            <label for="check019">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Summary</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check02a">
+                            <label for="check02a">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="left">
+                        <span class="drag-symbol"><img src="assets/images/icons/drag.svg" alt=""></span>
+                        <span>Case manager</span>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <div class="wrap">
+                            <input type="checkbox" class="custom-checkbox" name="" id="check02b">
+                            <label for="check02b">&nbsp;</label>
+                        </div>
+                    </div>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-faded" data-bs-dismiss="modal">Back</button>
+              <button type="button" class="btn btn-blue" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Continue</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade confirmation-popup" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure?</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-faded" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Back</button>
+              <button type="button" class="btn btn-blue" data-bs-dismiss="modal">Continue</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade set-follow-up-date-popup" id="staticBackdrop102" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">Give document access</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-0">
+                    <p>You have not set a follow-up date that is after today's date.</p>
+                    <p>To save the case, you must always have a follow-up date that is after today's date.</p>
+                    <div class="form-group">
+                        <label for="/">Is the applicant a party to the case?</label>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" id="dropdown-toggle">Choose <img src="assets/images/icons/down-arrow.svg" alt="">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="javascript:void(0)">Most recent</a>
+                                </li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Follow-up date</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Most recent</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-blue" data-bs-dismiss="modal">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/libs/bootstrap5/dist/js/bootstrap.min.js"></script>
+   <script src="assets/js/script.js"></script>
+ </body>
+</html>

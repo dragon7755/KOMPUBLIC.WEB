@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kom Public</title>
+    <link rel="shortcut icon" type="images/x-icon" href="assets/images/fav/favicon.ico" />
+    <link rel="stylesheet" href="assets/style/css/style.css">
+    </head>
+  <body>
+
+    <!-- header -->
+    <header class="main-header">
+        <div class="container-fluid">
+            <div class="header-inner">
+                <div class="header-left">
+                    <a href="javascript-void(0)" class="logo">
+                        <img src="assets/images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header-right">
+                    <div class="header-buttons">
+                        <a href="index.html" class="tab-button active"><span class="circle"><img class="icon" src="assets/images/icons/apps.svg" alt=""></span>My overview</a>
+                        <a href="case-overview.html" class="tab-button"><span class="circle"><img class="icon" src="assets/images/icons/case.svg" alt=""></span>Case overview</a>
+                        <a href="search.html" class="tab-button"><span class="circle"><img class="icon" src="assets/images/icons/search.svg" alt=""></span>Search</a>
+                    </div>
+                    <div class="hamburger d-sm-none">
+                        <span class="menu-icon">&nbsp;</span>
+                        <!-- <img class="icon" src="assets/images/icons/hamburger.svg" alt=""> -->
+                    </div>
+                    <button class="go-to-profile"><img src="assets/images/icons/user.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- <section class="case-overview">
+        <div class="container-fluid">
+            <div class="section-head">
+                <h2 class="section-title">Case overview</h2>
+                
+            </div>
+        </div>
+    </section> -->
+
+    <section class="overview">
+        <div class="container-fluid">
+            <div class="section-head">
+                <h2 class="section-title">Overview</h2>
+                <button type="button" class="search"><img class="icon" src="assets/images/icons/search.svg" alt=""></button>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- first Card -->
+                    <div class="white-card">
+                        <div class="card-header">
+                            <h4 class="card-title">The deadline has been exceeded</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Case number</th>
+                                            <th>Address</th>
+                                            <th>Status</th>
+                                            <th>Follow-up date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="left-rounded">827259-2022</span></td>
+                                            <td>Gothersgade 137</td>
+                                            <td>Letter of deficiency</td>
+                                            <td>
+                                                <span class="red-text"><img src="assets/images/icons/alert.svg" alt="">02/02/2023</span>
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Palægade 2</td>
+                                            <td>Awaiting startup</td>
+                                            <td>15/03/2023
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Klostergården 37</td>
+                                            <td>Reminders easier</td>
+                                            <td>15/03/2023
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Gothersgade 137</td>
+                                            <td>Reminders easier</td>
+                                            <td>15/03/2023
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Klostergården 37</td>
+                                            <td>Reminders easier</td>
+                                            <td>15/03/2023
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-faded">All cases where the deadline has been exceeded <img src="assets/images/icons/right-arrow.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="warning-message">
+                            <div class="gray-box">&nbsp;</div>
+                            <p>You have no cases where the deadline is less than 5 days.</p>
+                        </div>
+                    </div>
+                    <!-- second Card -->
+                    <div class="white-card">
+                        <div class="card-header">
+                            <h4 class="card-title">Matters awaiting me</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Case number</th>
+                                            <th>Address</th>
+                                            <th>Status</th>
+                                            <th>Case type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Gothersgade 137</td>
+                                            <td>Decision ready</td>
+                                            <td class="fw-600">New behaviour 
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Palægade 2</td>
+                                            <td>Awaiting startup</td>
+                                            <td>Remodeling and extension 
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Klostergården 37</td>
+                                            <td>Decision ready</td>
+                                            <td>Legalization 
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Klostergården 37</td>
+                                            <td>Decision ready</td>
+                                            <td>Legalization 
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Gothersgade 137</td>
+                                            <td>Answer received</td>
+                                            <td>Remodeling and extension 
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-faded">All matters await me <img src="assets/images/icons/right-arrow.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="warning-message">
+                            <div class="gray-box">&nbsp;</div>
+                            <p>You have no cases pending.</p>
+                        </div>
+                    </div>
+                    <!-- Third Card -->
+                    <div class="white-card">
+                        <div class="card-header">
+                            <h4 class="card-title">Awaiting assignment to a case manager</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="checkbox-wrapper">
+                                <div class="wrap">
+                                    <input type="checkbox" class="custom-checkbox" id="check1" checked>
+                                    <label for="check1">Screened</label>
+                                </div>
+                                <div class="wrap">
+                                    <input type="checkbox" class="custom-checkbox" id="check2">
+                                    <label for="check2">Case processed</label>
+                                </div>
+                                <div class="wrap">
+                                    <input type="checkbox" class="custom-checkbox" id="check3">
+                                    <label for="check3">Finished</label>
+                                </div>
+                            </div>
+                            <h4 class="table-title">Current cases</h4>
+                            <div class="table-responsive-moible">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Case number</th>
+                                            <th>Construction type</th>
+                                            <th>Category</th>
+                                            <th>Case manager</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td><span class="long-text">Single-family and terraced houses</span></td>
+                                            <td>Request</td>
+                                            <td class="selection">
+                                                <div class="dropdown">
+                                                    <button class="dropdown-toggle" id="dropdown-toggle">Choose <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Profession</td>
+                                            <td>Construction case</td>
+                                            <td class="selection">
+                                                <div class="dropdown">
+                                                    <button class="dropdown-toggle" id="dropdown-toggle">Choose <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Small buildings</td>
+                                            <td>Construction case</td>
+                                            <td class="selection">
+                                                <div class="dropdown">
+                                                    <button class="dropdown-toggle" id="dropdown-toggle">Choose <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td><span class="long-text">Single-family and terraced houses</span></td>
+                                            <td>Request</td>
+                                            <td class="selection">
+                                                <div class="dropdown">
+                                                    <button class="dropdown-toggle" id="dropdown-toggle">Choose <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>827259-2022</td>
+                                            <td>Profession</td>
+                                            <td>Construction case</td>
+                                            <td class="selection">
+                                                <div class="dropdown">
+                                                    <button class="dropdown-toggle" id="dropdown-toggle">Choose <img src="assets/images/icons/down-arrow.svg" alt="">
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="javascript:void(0)">Something else</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-faded">All cases awaiting allocation<img src="assets/images/icons/right-arrow.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="warning-message">
+                            <div class="gray-box">&nbsp;</div>
+                            <p>You have no cases pending assignment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- fourth Card -->
+                    <div class="white-card">
+                        <div class="card-header">
+                            <h4 class="card-title">Inbox</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Message</th>
+                                            <th>Sending</th>
+                                            <th>Dating</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="red-dot">&nbsp;</span> <span class="long-text">Thank you and have a good day. We hope to be able to start on Wednesday.</span></td>
+                                            <td>Pia Jesen</td>
+                                            <td class="font-600">12/10/2022
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="red-dot">&nbsp;</span><span class="long-text">Hi Henrik, our advisor says she has spoken to you.</span></td>
+                                            <td>Martin Sorensen</td>
+                                            <td class="font-600">09/10/2022
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="font-500">It would love to be on its way to you.</td>
+                                            <td>Peter Clausen</td>
+                                            <td class="font-600">09/10/2022
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-faded">Go to the inbox<img src="assets/images/icons/right-arrow.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fifth Card -->
+                    <div class="white-card">
+                        <div class="card-header">
+                            <h4 class="card-title mb-0">Working hours on cases</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="duration mb-2">
+                                <div class="time">33 hours, 8 minutes</div>
+                                <div class="week-count">
+                                    <button type="button" class="left-arrow"><img src="assets/images/icons/left-arrow.svg" alt=""></button>
+                                    <span class="current">Week 11</span>
+                                    <button type="button" class="left-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></button>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Message</th>
+                                            <th>Sending</th>
+                                            <th>Dating</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="long-text">Thank you and have a good day. We hope to be able to start on Wednesday.</span></td>
+                                            <td>Pia Jesen</td>
+                                            <td class="font-600">12/10/2022
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="long-text">Hi Henrik, our advisor says she has spoken to you.</span></td>
+                                            <td>Martin Sorensen</td>
+                                            <td class="font-600">09/10/2022
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="font-500">It would love to be on its way to you.</td>
+                                            <td>Peter Clausen</td>
+                                            <td class="font-600">09/10/2022
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- sixth Card -->
+                    <div class="white-card">
+                        <div class="card-header">
+                            <h4 class="card-title">News</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Subject</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>12/10/2022</td>
+                                            <td class="font-600"><span class="red-dot">&nbsp;</span>Updates to BR18
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>09/10/2022</td>
+                                            <td class="font-600"><span class="red-dot">&nbsp;</span>Information about template updates
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>09/10/2022</td>
+                                            <td>Other news from the organization
+                                                <span class="right-arrow"><img src="assets/images/icons/right-arrow.svg" alt=""></span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-faded">Go to all news<img src="assets/images/icons/right-arrow.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/libs/bootstrap5/dist/js/bootstrap.min.js"></script>
+   <script src="assets/js/script.js"></script>
+ </body>
+</html>
